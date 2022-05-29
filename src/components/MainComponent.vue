@@ -23,7 +23,7 @@
 
 		<div>
 			<h1>Getting props or data from slot on base-layout component</h1>
-			<base-layout v-slot:propSlot="info"> </base-layout>
+			<base-layout v-slot:propSlot="info" />
 		</div>
 	</div>
 	<!-- eslint-disable -->
