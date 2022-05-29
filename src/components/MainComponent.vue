@@ -22,8 +22,8 @@
 		</footer-component>
 
 		<div>
-			<h1>Getting props or data from slot and handle On Parent Component</h1>
-			<base-layout></base-layout>
+			<h1>Getting props or data from slot on base-layout component</h1>
+			<base-layout v-slot:propSlot="info"> </base-layout>
 		</div>
 	</div>
 	<!-- eslint-disable -->
