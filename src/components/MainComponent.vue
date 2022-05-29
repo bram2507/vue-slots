@@ -20,6 +20,11 @@
 				<h1>{{ footerMsg }}</h1>
 			</template>
 		</footer-component>
+
+		<div>
+			<h1>Getting props or data from slot and handle On Parent Component</h1>
+			<base-layout></base-layout>
+		</div>
 	</div>
 	<!-- eslint-disable -->
 </template>
@@ -27,11 +32,13 @@
 import HeaderComponet from "./HeaderComponet.vue";
 import BodyComponent from "./BodyComponent.vue";
 import FooterComponent from "./FooterComponent.vue";
+import BaseLayout from "./SoltProps/BaseLayout.vue";
 export default {
 	components: {
 		"header-component": HeaderComponet,
 		"body-component": BodyComponent,
 		"footer-component": FooterComponent,
+		"base-layout": BaseLayout,
 	},
 	data() {
 		return {
