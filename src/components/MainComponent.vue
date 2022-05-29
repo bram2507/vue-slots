@@ -1,9 +1,10 @@
 /* eslint-disable */
 <template>
 	<!-- eslint-disable -->
-	<base-layout>
+	<div>
 		<header-component>
 			<template v-slot:header>
+				<!-- #hedaer short name on template -->
 				<h1>{{ headerMsg }}</h1>
 			</template>
 		</header-component>
@@ -19,7 +20,7 @@
 				<h1>{{ footerMsg }}</h1>
 			</template>
 		</footer-component>
-	</base-layout>
+	</div>
 	<!-- eslint-disable -->
 </template>
 <script>
